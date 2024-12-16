@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #141b1c;
+  font-family: Montserrat;
+}
+
+.Price_tables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.price-card {
+  position: relative;
+  color: #fff;
+  background-color: #334247;
+  max-width: 380px;
+  max-height: 770px;
+  overflow: hidden;
+}
+
+.price-card__title {
+  margin-top: 33px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  line-height: 42px;
+}
+.price-card__title__text {
+  font-size: 35px;
+  line-height: 43px;
+}
+
+.subheader {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 31px;
+}
+
+.price-card__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 55px;
+  background-color: #5bb189;
+  min-height: 105px;
+}
+
+.price-blue {
+  background-color: #3a6ba5;
+}
+
+.price-orange {
+  background-color: #ec632a;
+}
+
+.price-card__description {
+  margin: 40px 26px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list__item {
+  display: flex;
+  padding: 16px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;
+}
+
+li:nth-child(odd) {
+  background-color: #2a3438;
+}
+
+li:nth-child(1)::marker {
+  background-color: #2a3438;
+  padding: 12px;
+}
+
+img {
+  margin: 2px 22px 3px 6px;
+  width: 15px;
+  height: 13px;
+}
+
+.price-card__order-btn {
+  display: flex;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  align-items: center;
+  color: #fff;
+  margin: 39px auto 40px;
+  width: 155px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #5bb189;
+  border: none;
+  justify-content: center;
+}
+
+.button-blue {
+  background-color: #3a6ba5;
+}
+
+.button-orange {
+  background-color: #ec632a;
+}
+
+.ribbon {
+  position: absolute;
+  top: 27px;
+  right: -32px;
+  background-color: #dc3f45;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 40px;
+  transform: rotate(45deg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: left;
+}
+
+.price-card:nth-child(2) {
+  margin: 0 16px;
+}/*# sourceMappingURL=index.css.map */
