@@ -10,7 +10,7 @@ This project showcases a pricing table layout designed for websites. It contains
 - HTML5
 - CSS3
 - Flexbox
-- Sast (Scss)
--BEM methodology
+- Sass (Scss)
+- BEM methodology
 
 
