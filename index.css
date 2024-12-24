@@ -20,6 +20,7 @@ body {
   color: #fff;
   background-color: #334247;
   max-width: 380px;
+  min-width: 380px;
   max-height: 770px;
   overflow: hidden;
 }
