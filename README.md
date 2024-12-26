@@ -1,7 +1,7 @@
 # Pricing Table Project
 A simple and responsive pricing table layout created using HTML and CSS. This project demonstrates clean and structured code for a visually appealing pricing section.
 
-## [Site Links](https://sanialytskov.github.io/price-cards-layout/)
+## [Site Link](https://sanialytskov.github.io/price-cards-layout/)
 
 ## Overview
 
