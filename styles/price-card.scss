@@ -10,9 +10,10 @@
     font-size: 24px;
     font-weight: bold;
 
-    .subheader {
+    &__subtitle {
       font-size: 18px;
       color: $text-color-light;
+      display: block;
     }
   }
   &__price {
